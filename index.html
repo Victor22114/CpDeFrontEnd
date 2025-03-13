@@ -5,19 +5,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currículo com Template Bootstrap</title>
+    <title>Currículo </title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
 </head>
 
 <body class="bg-light">
 
+    <!-- Barra de Navegação -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+        <div class="container">
+            <a class="navbar-brand" href="#">Victor Kenzo Mikado</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#sobre">Sobre Mim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experiencia">Experiência de Trabalho</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#idiomas">Idiomas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
     <div class="container p-5">
 
         <div class="row">
 
             <!-- Coluna da esquerda (Contato, Habilidades, Educação) -->
-            <div class="col-lg-4 bg-dark text-white text-center py-4">
+            <div class="col-lg-4 col-md-12 bg-dark text-white text-center py-4" id="contato">
                 
                 <!-- Nova Seção para Imagem Acima do Nome -->
                 <div class="mb-4">
@@ -25,69 +54,106 @@
                 </div>
 
                 <div class="header-left">
-                    <h1 class="display-5">Michelle Watson</h1>
-                    <h4 class="lead text-uppercase text-white-50 mb-4">diretora criativa</h4>
+                    <h1 class="display-5">Victor Kenzo Mikado</h1>
+                    <h4 class="lead text-uppercase text-white-50 mb-4">programador iniciante</h4>
                 </div>
 
                 <!-- Seção de Contato -->
                 <h5 class="text-uppercase bg-white text-dark py-2 rounded-pill">contato</h5>
                 <ul class="list-unstyled text-white-50 ml-5 py-2 text-left">
                     <li class="list-item">
-                        <i class="fas fa-mobile-alt mx-4"></i> +00 123 456 789
+                        <i class="fas fa-mobile-alt mx-4"></i> +11 93332-2005
                     </li>
                     <li class="list-item">
-                        <i class="fas fa-envelope-open-text mx-4"></i> mail@gmail.com
+                        <i class="fas fa-envelope-open-text mx-4"></i> victorkmikado@hotmail.com
                     </li>
                     <li class="list-item">
-                        <i class="fas fa-blog mx-4"></i> www.amostra.com
+                        <i class="fab fa-linkedin mx-4"></i> <a href="https://www.linkedin.com/in/michellewatson" class="text-white-50" target="_blank">Vicotr Kenzo Mikado</a>
                     </li>
                     <li class="list-item">
-                        <i class="fas fa-map-marker-alt mx-4"></i> Rua Exemplo, Cidade
+                        <i class="fab fa-twitter mx-4"></i> <a href="https://twitter.com/michellewatson" class="text-white-50" target="_blank">@VITAOOOOO2
+                        </a>
+                    </li>
+                    <li class="list-item">
+                        <i class="fab fa-facebook mx-4"></i> <a href="https://www.facebook.com/michellewatson" class="text-white-50" target="_blank">Victor Kenzo</a>
                     </li>
                 </ul>
 
                 <!-- Seção de Habilidades -->
-                <h5 class="text-uppercase bg-white text-dark py-2 rounded-pill mt-4">habilidades</h5>
+                <h5 class="text-uppercase bg-white text-dark py-2 rounded-pill mt-4" id="habilidades">habilidades</h5>
                 <ul class="list text-white-50 ml-5 py-2 text-left text-capitalize">
-                    <li class="list-item">habilidades de resolução de problemas</li>
+                    <li class="list-item">Resolução de problemas</li>
                     <li class="list-item">comunicação verbal</li>
                     <li class="list-item">atendimento ao cliente</li>
                 </ul>
 
-                <!-- Seção de Educação -->
-                <h5 class="text-uppercase bg-white text-dark py-2 rounded-pill mt-4">educação</h5>
+                <!-- Seção de Idiomas -->
+                <h5 class="text-uppercase bg-white text-dark py-2 rounded-pill mt-4" id="idiomas">Idiomas</h5>
                 <ul class="list text-white-50 ml-5 py-2 text-left text-capitalize">
-                    <li class="list-item">B.A Marketing, Universidade XYZ</li>
-                    <li class="list-item">Pós-graduação em Marketing Digital, Universidade ABC</li>
-                    <li class="list-item">MBA em Gestão de Marketing, Universidade DEF</li>
+                    <li class="list-item">A1 inglês</li>
+                    <li class="list-item">A1 Espanhol </li>
+                    <li class="list-item">N1 japonês</li>
                 </ul>
             </div>
 
             <!-- Coluna da direita (Experiência de Trabalho) -->
-            <div class="col-lg-8">
+            <div class="col-lg-8 col-md-12">
                 
                 <!-- Seção "Sobre Mim" -->
-                <h4 class="text-uppercase">sobre mim</h4>
+                <h4 class="text-uppercase" id="sobre">sobre mim</h4>
                 <hr>
-                <p>Olá! Sou Michelle Watson, uma profissional com mais de 10 anos de experiência no setor de marketing e comunicação. Sou apaixonada por criar estratégias inovadoras que ajudam as empresas a se destacarem no mercado. Com uma visão criativa e analítica, procuro constantemente me atualizar sobre as últimas tendências e práticas de marketing digital.</p>
+                <!-- Seção "Sobre Mim" -->
 
-                <p>Ao longo da minha carreira, trabalhei com equipes multidisciplinares para desenvolver campanhas impactantes e orientadas para resultados. Estou sempre em busca de novos desafios que permitam aplicar minhas habilidades criativas e de gestão de projetos para atingir os objetivos da empresa e oferecer valor real aos clientes.</p>
+                <p>Olá! Sou Victor Kenzo Mikado, um profissional com experiência de 2 anos como freelancer, dando aulas de vôlei para pessoas de diferentes idades e níveis de habilidade.</p>
+
+                <p>Além do meu trabalho como instrutora de vôlei, sou uma pessoa que valoriza a estratégia e o planejamento. Gosto de abordar desafios de maneira analítica, buscando sempre soluções eficientes e inovadoras. No meu tempo livre, sou uma entusiasta dos videogames, onde posso me divertir e desafiar a minha mente com jogos estratégicos. Também adoro jogar vôlei, seja de forma competitiva ou apenas por diversão, além de caminhar para manter minha mente e corpo em equilíbrio.</p>
+
+                <p>Sou uma pessoa que acredita na importância de se manter em constante evolução, tanto pessoal quanto profissionalmente. Gosto de me rodear de pessoas motivadas e sempre busco aprender novas habilidades e experiências.</p>
 
                 <!-- Seção de Experiência de Trabalho -->
-                <h4 class="text-uppercase">experiência de trabalho</h4>
+                <h4 class="text-uppercase" id="experiencia">experiência de trabalho</h4>
                 <hr>
                 <ul class="list">
                     <li class="list-item">
-                        <h5 class="display-6 text-uppercase">marketing de mídia online</h5>
-                        <h6 class="text-uppercase text-black-50">nome da empresa / 2020-presente</h6>
-                        <p>Atuo como diretora criativa, liderando campanhas digitais para empresas de diversos setores. Minha principal responsabilidade é coordenar a criação de estratégias de marketing e garantir a execução eficaz dos projetos. Além disso, também gerencio a equipe de criação e analiso os resultados das campanhas para otimizar os processos e melhorar o desempenho.</p>
+                        <h5 class="display-6 text-uppercase">Instrutor de  Voleibol
+                        </h5>
+                        <h6 class="text-uppercase text-black-50">Esporte Clube Vila Mariana/ 2023-presente</h6>
+                        <p> Durante esse tempo, tive a oportunidade de ensinar, motivar e orientar alunos para que se tornassem melhores no esporte, desenvolvendo tanto habilidades técnicas quanto o trabalho em equipe.</p>
                     </li>
                     <li class="list-item">
-                        <h5 class="display-6 text-uppercase">consultoria em marketing digital</h5>
-                        <h6 class="text-uppercase text-black-50">nome da empresa / 2017-2020</h6>
-                        <p>Trabalhei como consultora em marketing digital, ajudando empresas a desenvolverem estratégias eficazes para a presença online. Realizei o planejamento e implementação de campanhas nas principais plataformas digitais, como Google Ads, Facebook Ads e Instagram, buscando sempre maximizar o retorno sobre investimento (ROI) e o engajamento com o público-alvo.</p>
+                        <h5 class="display-6 text-uppercase">árbitro de voleibol</h5>
+                        <h6 class="text-uppercase text-black-50">Freelancer/ 2023-presente</h6>
+                        <p>Atuo como árbitro de voleibol em campeonatos amadores e torneios locais. Minha principal responsabilidade é garantir que as partidas sejam realizadas de acordo com as regras oficiais, fazendo cumprir as normas do jogo e assegurando que os atletas e equipes estejam em um ambiente justo e seguro.</p>
                     </li>
                 </ul>
+                
+                <!-- Seção "Portfolio" -->
+                <h4 class="text-uppercase" id="portfolio">portfolio</h4>
+                <hr>
+                <div class="row">
+                    <!-- Cartão 1 -->
+                    <div class="col-md-6">
+                        <div class="card mb-4">
+                            <img src="Imags.jpg" class="card-img-top" alt="Projeto 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Projeto Pacotinho de Amor</h5>
+                                <p class="card-text">Projeto independente de proteção animal, ONG</p>
+                                <a href="#" class="btn btn-primary">Ver mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Cartão 2 -->
+                    <div class="col-md-6">
+                        <div class="card mb-4">
+                            <img src="portfolio-image2.jpg" class="card-img-top" alt="Projeto 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Campanha de Redes Sociais</h5>
+                                <p class="card-text">Desenvolvimento de uma campanha de publicidade para redes sociais, focada em engajamento e crescimento de seguidores.</p>
+                                <a href="#" class="btn btn-primary">Ver mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </div>
